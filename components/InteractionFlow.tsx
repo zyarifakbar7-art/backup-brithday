@@ -76,7 +76,7 @@ const LoveModeStep = ({ onComplete }: { onComplete: () => void }) => {
 
                 <div className="flex flex-col items-center space-y-6">
                     <span className={`text-5xl font-playfair transition-colors duration-1000 ${isOn ? 'text-white' : 'text-white/40'}`}>
-                        Love mode
+                        Birthday Surprise 🎉
                     </span>
 
                     <button
