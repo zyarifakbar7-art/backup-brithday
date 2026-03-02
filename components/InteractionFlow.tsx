@@ -186,7 +186,7 @@ const TicTacToeStep = ({ onComplete }: { onComplete: () => void }) => {
     useEffect(() => {
         if (winner === 'X') {
             setMessage("haii ini hadiah dari aku,yaa ga seberapa sih semoga kamu suka yaa");
-            setTimeout(() => onComplete(), 3500); // Increased timeout to wait for staggered animation
+            setTimeout(() => onComplete(), 12000); // Increased timeout to wait for staggered animation
         } else if (winner === 'O' || winner === 'draw') {
             setMessage(winner === 'draw' ? "Seri! Coba lagi yaa ❤️" : "Hampir! Sekali lagi...");
             setTimeout(() => {
@@ -261,7 +261,7 @@ const LoveMeterStep = ({ onComplete }: { onComplete: () => void }) => {
             setProgress(prev => {
                 if (prev >= 100) {
                     clearInterval(interval);
-                    setTimeout(() => onComplete(), 12000);
+                    setTimeout(() => onComplete(), 3000);
                     return 100;
                 }
                 return prev + 1;
