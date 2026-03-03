@@ -2,12 +2,18 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
+@font-face {
+  font-family: "Bubblegum";
+  src: url("/fonts/Bubblegum.ttf")
+format("truetype");
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: "Bubblegum", cursive;
   --font-mono: var(--font-geist-mono);
   --font-playfair: var(--font-playfair);
   --color-sidebar-ring: var(--sidebar-ring);
