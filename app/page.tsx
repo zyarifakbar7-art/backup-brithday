@@ -33,12 +33,9 @@ export default function Home() {
       </main>
     ) : (
       <div
-        className="w-screen h-screen"
+        className="w-screen h-screen bg-cover bg-center"
         style={{
           backgroundImage: "url('/belakang.jpeg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
         }}
       >
         <audio src="/pretty.mp3" autoPlay loop className="hidden" />
