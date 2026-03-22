@@ -706,11 +706,11 @@ export default function DomeGallery({
     // Add romantic labels
     const labelLeft = document.createElement('div');
     labelLeft.className = 'romantic-label label-left font-playfair';
-    labelLeft.innerText = 'My';
+    labelLeft.innerText = 'kisaa';
 
     const labelRight = document.createElement('div');
     labelRight.className = 'romantic-label label-right font-playfair';
-    labelRight.innerText = 'Everything';
+    labelRight.innerText = 'pendek';
 
     viewerRef.current?.appendChild(labelLeft);
     viewerRef.current?.appendChild(labelRight);
