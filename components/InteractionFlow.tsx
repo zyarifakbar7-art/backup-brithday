@@ -205,7 +205,7 @@ const TicTacToeStep = ({ onComplete }: { onComplete: () => void }) => {
             className="flex flex-col items-center justify-center space-y-10 relative z-10"
         >
             <h2 className="text-4xl font-playfair text-white text-center drop-shadow-lg max-w-xs whitespace-pre-line leading-tight">
-                {winner === 'X' ? "haii ini hadiah dari aku,yaa ga seberapa sih semoga kamu suka yaa" : message}
+                {winner === 'X' ? "Cieeee ulang tahunn nih kisaaaa semoga tambah pendek yaaaa hehehe" : message}
             </h2>
             <div className="grid grid-cols-3 gap-3 p-4 bg-white/5 backdrop-blur-md rounded-3xl border border-white/10 shadow-2xl">
                 {board.map((square, i) => (
